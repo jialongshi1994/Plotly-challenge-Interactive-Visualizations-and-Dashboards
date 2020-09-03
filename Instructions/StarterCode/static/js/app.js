@@ -5,7 +5,7 @@
 }
 console.log(data)
 
-// 初始化下拉框
+// initialize the drop-down 
 const $selDataset = document.getElementById('selDataset')
 
 $selDataset.innerHTML = data.names.reduce((pre, cur) => {
